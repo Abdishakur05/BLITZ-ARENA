@@ -1,6 +1,6 @@
 # The Debug Lounge
 
-The Debug Lounge is a coffee hangout space for coders. The
+The Debug Lounge is a coffee hangout space for coders. This website is created in order to provide a place for coders who love coffee to work as well as connect with eachother.
 
 
 # UX
