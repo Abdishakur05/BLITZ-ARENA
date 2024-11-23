@@ -16,7 +16,7 @@ body{
 /*Nav section*/
 
 nav{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 a.nav-link{
@@ -68,16 +68,12 @@ p{
 }
 
 div.carousel-inner{
- height: 500px;
- width: 500px;
+ height: 450px;
+ width: 600px;
 }
 
 div#carouselExampleControls.carousel.slide{
-    height: 500px;
- width: 500px;
+    height: 450px;
+ width: 600px;
 }
 
-div .row{
-    padding: 0%;
-    margin: 0%;
-}
