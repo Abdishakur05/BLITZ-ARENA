@@ -8,11 +8,11 @@ The target audience is people who seek action-packed, social, and memorable expe
 # UX
 
 
-##Project Goals
+## Project Goals
 
 The primary aim of Blitz Arena is to create a space where people can gather with family and friends to have fun while embracing a bit of friendly competition.
 
-###Player Goal
+### Player Goal
 The central target audience is for families and friends.
 
 Players Goals are:
