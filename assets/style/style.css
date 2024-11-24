@@ -3,6 +3,7 @@
 :root{
     --primary-font: "Dancing Script", sans-serif;
     --secondary-font: "Playfair Display", cursive;
+    --primary-color: #4E342E;
 }
 
 body{
@@ -29,19 +30,19 @@ nav{
 }
 
 a.nav-link{
-    color: #4E342E;
+    color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 140%;
 }
 
 a.navbar-brand{
-    color: #4E342E;
+    color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 190%;
 }
 
 button.btn.btn-outline-secondary{
-    color: #4E342E;
+    color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 120%;
 }
@@ -64,12 +65,12 @@ button.btn.btn-outline-secondary:hover{
 
 h1{
     font-family: var(--secondary-font);
-    color: #4E342E;
+    color: var(--primary-color);
     font-size: 250%;
 }
 p{
     font-family: var(--secondary-font);
-    color: #4E342E;
+    color: var(--primary-color);
     font-size: 110%;
 }
 
@@ -129,4 +130,12 @@ section#About.container.section{
 div.card{
     height: 450px;
     width: 450px;
+    border:1px solid black;
+    
+}
+
+div.card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
 }
