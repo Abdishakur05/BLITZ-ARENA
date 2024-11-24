@@ -12,7 +12,8 @@ body{
 
 header{
     
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    background-color: bisque;
    
 }
     
@@ -111,4 +112,21 @@ main div.col-12.col-lg-6{
     width: 700px;
     
     
+}
+
+section#About.container.section{
+    margin-bottom: 300px;
+}
+
+/*Menu*/
+#menu{
+    background-color: bisque;
+    opacity: 0.9;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+div.card{
+    height: 450px;
+    width: 450px;
 }
