@@ -1,37 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --primary-font: "Orbitron", sans-serif;
-    --secondary-font: "Oxanium", cursive;
+    --primary-font: "Dancing Script", sans-serif;
+    --secondary-font: "Playfair Display", cursive;
 }
 
 body{
-    box-sizing: border-box;
-    background: url("/assets/images/black-gradient-linear-purple-3840x2160-c2-483d8b-000000-a-285-f-14.svg") no-repeat center center/cover;
-    width: 100%;
-    height: 100vh;
-    
+    padding: 0;
+    margin: 0;
 }
+
+header{
+    
+    margin-bottom: 200px;
+   
+}
+    
+   
+
+
 
 /*Nav section*/
 
 nav{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(243, 202, 126);
 }
 
 a.nav-link{
-    color: white;
+    color: #4E342E;
     font-family: var(--primary-font);
+    font-size: 140%;
 }
 
 a.navbar-brand{
-    color: white;
+    color: #4E342E;
     font-family: var(--primary-font);
+    font-size: 190%;
 }
 
 button.btn.btn-outline-secondary{
-    color: white;
+    color: #4E342E;
     font-family: var(--primary-font);
+    font-size: 120%;
 }
 
 a.nav-link:hover{
@@ -42,18 +53,22 @@ a.navbar-brand:hover{
     color: gray;
 }
 
+button.btn.btn-outline-secondary:hover{
+    color: white;
+}
+
 /*Header Section*/
 
 
 
 h1{
     font-family: var(--secondary-font);
-    color: white;
+    color: #4E342E;
     font-size: 250%;
 }
 p{
     font-family: var(--secondary-font);
-    color: white;
+    color: #4E342E;
     font-size: 110%;
 }
 
@@ -63,17 +78,37 @@ p{
    padding-left: 150px;
 }
 
-.carousel {
-    margin: auto; /* Center carousel horizontally */
+.img{
+    background: url("/assets/images/pngtree-creative-flat-coffee-cup-silhouette-png-image_5569828-removebg-preview.png")no-repeat center center/cover;
+    width: 350px;
+    height: 350px;
+   
 }
 
-div.carousel-inner{
- height: 450px;
- width: 600px;
+/*About*/
+
+main{
+    padding: 0;
+    margin: 0;
+    
 }
 
-div#carouselExampleControls.carousel.slide{
-    height: 450px;
- width: 600px;
+#About{
+    
+    background-color: white;
+    width: 100%;
+    height: 400px;
 }
 
+main img{
+    width: 700px;
+    height: 400px;
+    
+    
+}
+
+main div.col-12.col-lg-6{
+    width: 700px;
+    
+    
+}
