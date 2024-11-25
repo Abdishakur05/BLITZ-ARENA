@@ -145,8 +145,42 @@ div.card:hover{
 /*Product*/
 
 #product{
-    background-color: bisque;
-    opacity: 0.9;
-    border: 2px solid black;
-    border-radius: 30px;
+    
+}
+
+hr{
+    color: rgb(34, 29, 3);
+    height: 50px;
+}
+
+@media screen and (max-width:768px) 
+{
+    h1{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+        
+    div.img{
+        width: 20%;
+    }
+
+    #About{
+        width: 100%;
+    }
+
+    #About img{
+        width: 320px;
+        height: 320px;
+    }
+
+    #menu{
+        width: 100%;
+    }
+
 }
